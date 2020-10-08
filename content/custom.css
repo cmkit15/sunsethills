@@ -1,0 +1,71 @@
+﻿.col, .row {
+    /*border: solid 1px red;*/
+}
+
+html, body {
+    color: white;
+    height: 100%;
+    /*background: linear-gradient(rgba(0, 0, 0, .65), rgba(0, 0, 0, .65)), url(images/sunset-md.jpg);*/
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right center;
+    background-size: cover;
+}
+
+.container-fluid {
+    margin: 0 auto;
+    padding: 0 15%;
+}
+
+.custom-nav-bg {
+    background-color: black;
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 5rem;
+    font-weight: 300;
+    color: white;
+}
+
+.site-info {
+    margin-bottom: 0;
+}
+
+p {
+    padding-top: 0px;
+    font-size: 1.25rem;
+}
+
+#errorMessage {
+    color: red;
+    font-size: 1.25rem;
+}
+
+.input-section {
+    /*border: solid 1px red;*/
+}
+
+.labels {
+    margin-top: 10px;
+}
+
+#results1,
+#results2,
+#results3,
+#results4,
+#results5 {
+    max-width: auto;
+    height: 350px;
+    margin-bottom: 50px;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+}
+
+input {
+}
+
+button {
+    margin: 30px 5px;
+}
