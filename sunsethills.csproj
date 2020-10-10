@@ -70,6 +70,7 @@
     <Content Include="code.html" />
     <Content Include="content\custom.css" />
     <Content Include="content\prism.css" />
+    <Content Include="images\favicon.ico" />
     <Content Include="images\sunset-md.jpg" />
     <Content Include="index.html" />
     <Content Include="scripts\prism.js" />
