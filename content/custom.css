@@ -1,11 +1,7 @@
-﻿.col, .row {
-    /*border: solid 1px red;*/
-}
-
-html, body {
+﻿html, body {
     color: white;
     height: 100%;
-    /*background: linear-gradient(rgba(0, 0, 0, .65), rgba(0, 0, 0, .65)), url(images/sunset-md.jpg);*/
+    background: linear-gradient(rgba(0, 0, 0, .65), rgba(0, 0, 0, .65)), url(../images/sunset-md.jpg);
     background-color: black;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -22,6 +18,10 @@ html, body {
     background-color: black;
 }
 
+.margin-top {
+    margin-top: 100px;
+}
+
 h1 {
     margin-top: 20px;
     font-size: 5rem;
@@ -30,11 +30,12 @@ h1 {
 }
 
 .site-info {
-    margin-bottom: 0;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 p {
-    padding-top: 0px;
+    padding-top: 40px;
     font-size: 1.25rem;
 }
 
@@ -43,27 +44,16 @@ p {
     font-size: 1.25rem;
 }
 
-.input-section {
-    /*border: solid 1px red;*/
-}
-
 .labels {
     margin-top: 10px;
-}
-
-#results1,
-#results2,
-#results3,
-#results4,
-#results5 {
-    max-width: auto;
-    height: 350px;
-    margin-bottom: 50px;
     font-size: 1.5rem;
-    line-height: 2.5rem;
 }
 
-input {
+.results-section {
+    height: 250px;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
 }
 
 button {
